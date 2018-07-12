@@ -1,0 +1,14 @@
+Rule (DisjunctiveSyllogism)
+  Premises
+    P∨Q
+    ¬P
+  Conclusion
+    Q
+  Proof
+    ¬P
+    P=>Q by PrincipleOfExplosion
+    Q=>Q
+    P∨Q
+  Therefore
+    Q by DisjunctionElimination
+

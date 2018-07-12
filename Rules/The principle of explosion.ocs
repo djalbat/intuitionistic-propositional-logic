@@ -1,0 +1,5 @@
+Rule (PrincipleOfExplosion,NegationElimination,ExFalsoQuodlibet)
+  Premise
+    ¬P 
+  Conclusion
+    P=>Q

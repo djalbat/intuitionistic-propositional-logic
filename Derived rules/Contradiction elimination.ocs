@@ -1,0 +1,22 @@
+Rule (ContradictionElimination)
+  Premise
+    P∨(Q∧¬Q)
+  Conclusion
+    P
+  Proof
+    Suppose
+      P
+    Hence
+      P
+    P=>P
+    Suppose
+      Q∧¬Q
+    Then
+      Q
+      ¬Q
+    Hence
+      P by PrincipleOfExplosionAlternativeForm
+    Q∧¬Q=>P
+  Therefore
+    P by DisjunctionElimination
+
