@@ -15,5 +15,5 @@ P\Rightarrow{Q}}\quad\small\text{[PrincipleOfExplosion,NegationElimination,ExFal
 
 ## Contact
 
-* jecs@imperial.ac.uk
+* james.smith@openmathematics.org
 * http://djalbat.com
