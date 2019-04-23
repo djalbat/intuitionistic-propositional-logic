@@ -6,7 +6,7 @@ Rule (PrincipleOfExplosionAlternativeForm)
     Q
   Proof
     ¬P
-    P=>Q by PrincipleOfExplosion
+    P => Q by PrincipleOfExplosion
     P
   Therefore
     Q by ModusPonens
@@ -15,11 +15,11 @@ Rule (PrincpleOfExplosionAlternativeFormImpliesThePrincipleOfExplosion)
   Premise
     ¬P
   Conclusion
-    P=>Q
+    P => Q
   Proof
     Suppose
       P
     Hence
       Q by PrincipleOfExplosionAlternativeForm
   Therefore
-    P=>Q
+    P => Q
