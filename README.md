@@ -1,8 +1,6 @@
 # Intuitionistic Propositional Logic
 
-Intuitionistic propositional logic for the [Occam](http://djalbat.com/occam) proof assistant.
-
-The implementation encompasses all of the rules for minimal propositional logic, plus the following:
+Intuitionistic propositional logic for the [Occam](http://occam.science) proof assistant.
 
 \[
 \frac{\neg{P}}{

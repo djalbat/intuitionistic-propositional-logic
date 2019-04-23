@@ -1,6 +1,6 @@
 {
+  "repository": "https://github.com/jecs-imperial/intuitionistic-propositional-logic",
   "dependencies": [
     "minimal-propositional-logic"
-  ],
-  "repository": "https://github.com/jecs-imperial/intuitionistic-propositional-logic"
+  ]
 }
