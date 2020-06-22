@@ -1,6 +1,6 @@
 Rule (ContradictionElimination)
   Premise
-    P ∨ (Q ∧ ¬Q)
+    P \/ (Q /\ ¬Q)
   Conclusion
     P
   Proof
@@ -10,12 +10,12 @@ Rule (ContradictionElimination)
       P
     P => P
     Suppose
-      Q ∧ ¬Q
+      Q /\ ¬Q
     Then
       Q
       ¬Q
     Hence
       P by PrincipleOfExplosionAlternativeForm
-    Q ∧ (¬Q => P)
+    Q /\ (¬Q => P)
   Therefore
     P by DisjunctionElimination
