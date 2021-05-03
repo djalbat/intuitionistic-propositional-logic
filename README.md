@@ -1,6 +1,6 @@
 # Intuitionistic Propositional Logic
 
-Intuitionistic propositional logic for the [Occam](http://occam.science) proof assistant.
+Intuitionistic propositional logic for [Occam](https://occam.science).
 
 \[
 \frac{\neg{P}}{
@@ -13,5 +13,4 @@ P\Rightarrow{Q}}\quad\small\text{[PrincipleOfExplosion,NegationElimination,ExFal
 
 ## Contact
 
-* james.smith@openmathematics.org
 * http://djalbat.com
