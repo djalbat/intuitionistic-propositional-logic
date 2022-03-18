@@ -1,6 +1,6 @@
 Rule (DisjunctiveSyllogism)
   Premises
-    P ∨ Q
+    P \/ Q
     ¬P
   Conclusion
     Q
@@ -8,6 +8,6 @@ Rule (DisjunctiveSyllogism)
     ¬P
     P => Q by PrincipleOfExplosion
     Q => Q
-    P ∨ Q
+    P \/ Q
   Therefore
     Q by DisjunctionElimination
