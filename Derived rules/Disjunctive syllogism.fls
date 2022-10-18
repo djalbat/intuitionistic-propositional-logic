@@ -5,9 +5,12 @@ Rule (DisjunctiveSyllogism)
   Conclusion
     Q
   Proof
-    ¬P
     P => Q by PrincipleOfExplosion
-    Q => Q
+    Suppose
+      Q
+    Therefore
+      Q
+    Q => Q by ImplicationIntroduction
     P \/ Q
   Therefore
     Q by DisjunctionElimination

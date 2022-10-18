@@ -6,16 +6,16 @@ Rule (ContradictionElimination)
   Proof
     Suppose
       P
-    Hence
+    Therefore
       P
-    P => P
+    P => P by ImplicationIntroduction
     Suppose
       Q /\ ¬Q
-    Then
-      Q
-      ¬Q
     Hence
+      Q by ConjunctionRightElimination
+      ¬Q by ConjunctionLeftElimination
+    Therefore
       P by PrincipleOfExplosionAlternativeForm
-    Q /\ (¬Q => P)
+    (Q /\ ¬Q) => P by ImplicationIntroduction
   Therefore
     P by DisjunctionElimination
