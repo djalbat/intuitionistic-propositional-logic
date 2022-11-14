@@ -7,7 +7,7 @@ Intuitionistic propositional logic for [Occam](https://occam.science).
 P\Rightarrow{Q}}\quad\small\text{[PrincipleOfExplosion,NegationElimination,ExFalsoQuodlibet]}
 \]
 
-As well as these rules there are many derived rules. See the package contents for details...
+As well as these rules there are many derived rules. See the package contents for details.
 
 ## Resources
 
