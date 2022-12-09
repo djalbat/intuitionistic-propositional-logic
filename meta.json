@@ -1,7 +1,7 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "https://github.com/djalbat/intuitionistic-propositional-logic",
   "dependencies": {
-    "minimal-propositional-logic": "1.0"
+    "minimal-propositional-logic": "1.1"
   }
 }
