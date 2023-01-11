@@ -6,7 +6,7 @@ Rule (ContradictionElimination)
   Proof
     Suppose
       P
-    Therefore
+    Then
       P
     P => P by ImplicationIntroduction
     Suppose
@@ -14,7 +14,7 @@ Rule (ContradictionElimination)
     Hence
       Q by ConjunctionRightElimination
       ¬Q by ConjunctionLeftElimination
-    Therefore
+    Then
       P by PrincipleOfExplosionAlternativeForm
     (Q /\ ¬Q) => P by ImplicationIntroduction
   Therefore

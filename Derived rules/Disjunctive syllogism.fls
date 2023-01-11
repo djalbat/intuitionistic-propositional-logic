@@ -8,7 +8,7 @@ Rule (DisjunctiveSyllogism)
     P => Q by PrincipleOfExplosion
     Suppose
       Q
-    Therefore
+    Then
       Q
     Q => Q by ImplicationIntroduction
     P \/ Q

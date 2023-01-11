@@ -19,7 +19,7 @@ Rule (PrincpleOfExplosionAlternativeFormImpliesThePrincipleOfExplosion)
   Proof
     Suppose
       P
-    Therefore
+    Then
       Q by PrincipleOfExplosionAlternativeForm
   Therefore
     P => Q by ImplicationIntroduction
