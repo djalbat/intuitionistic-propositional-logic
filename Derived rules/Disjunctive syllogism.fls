@@ -6,7 +6,7 @@ Rule (DisjunctiveSyllogism)
     Q
   Proof
     P => Q by PrincipleOfExplosion
-    Suppose
+    Premise
       Q
     Then
       Q

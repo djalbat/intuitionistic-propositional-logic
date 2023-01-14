@@ -17,7 +17,7 @@ Rule (PrincpleOfExplosionAlternativeFormImpliesThePrincipleOfExplosion)
   Conclusion
     P => Q
   Proof
-    Suppose
+    Premise
       P
     Then
       Q by PrincipleOfExplosionAlternativeForm

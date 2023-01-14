@@ -4,12 +4,12 @@ Rule (ContradictionElimination)
   Conclusion
     P
   Proof
-    Suppose
+    Premise
       P
     Then
       P
     P => P by ImplicationIntroduction
-    Suppose
+    Premise
       Q /\ ¬Q
     Hence
       Q by ConjunctionRightElimination
