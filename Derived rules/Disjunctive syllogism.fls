@@ -1,3 +1,6 @@
+Metavariable P:Statement
+Metavariable Q:Statement
+
 Rule (DisjunctiveSyllogism)
   Premises
     P \/ Q
