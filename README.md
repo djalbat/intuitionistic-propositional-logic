@@ -15,4 +15,4 @@ As well as these rules there are many derived rules. See the package contents fo
 
 ## Contact
 
-* http://djalbat.com
+* https://djalbat.com
