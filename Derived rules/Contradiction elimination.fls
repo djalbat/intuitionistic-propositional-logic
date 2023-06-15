@@ -3,7 +3,7 @@ Metavariable Q:Statement
 
 Rule (ContradictionElimination)
   Premise
-    P \/ (Q /\ ¬Q)
+    P ∨ (Q ∧ ¬Q)
   Conclusion
     P
   Proof
@@ -11,14 +11,14 @@ Rule (ContradictionElimination)
       P
     Then
       P
-    P => P by ImplicationIntroduction
+    P ⇒ P by ImplicationIntroduction
     Premise
-      Q /\ ¬Q
+      Q ∧ ¬Q
     Hence
       Q by ConjunctionRightElimination
       ¬Q by ConjunctionLeftElimination
     Then
       P by PrincipleOfExplosionAlternativeForm
-    (Q /\ ¬Q) => P by ImplicationIntroduction
+    (Q ∧ ¬Q) ⇒ P by ImplicationIntroduction
   Therefore
     P by DisjunctionElimination

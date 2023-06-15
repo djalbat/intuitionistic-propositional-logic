@@ -3,17 +3,17 @@ Metavariable Q:Statement
 
 Rule (DisjunctiveSyllogism)
   Premises
-    P \/ Q
+    P ∨ Q
     ¬P
   Conclusion
     Q
   Proof
-    P => Q by PrincipleOfExplosion
+    P ⇒ Q by PrincipleOfExplosion
     Premise
       Q
     Then
       Q
-    Q => Q by ImplicationIntroduction
-    P \/ Q
+    Q ⇒ Q by ImplicationIntroduction
+    P ∨ Q
   Therefore
     Q by DisjunctionElimination
