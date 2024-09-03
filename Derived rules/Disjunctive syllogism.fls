@@ -9,7 +9,7 @@ Rule (DisjunctiveSyllogism)
     Q
   Proof
     P ⇒ Q by PrincipleOfExplosion
-    Premise
+    Suppose
       Q
     Then
       Q

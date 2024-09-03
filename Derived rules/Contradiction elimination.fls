@@ -7,12 +7,12 @@ Rule (ContradictionElimination)
   Conclusion
     P
   Proof
-    Premise
+    Suppose
       P
     Then
       P
     P ⇒ P by ImplicationIntroduction
-    Premise
+    Suppose
       Q ∧ ¬Q
     Hence
       Q by ConjunctionRightElimination
