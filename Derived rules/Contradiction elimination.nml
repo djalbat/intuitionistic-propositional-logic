@@ -15,8 +15,8 @@ Rule (ContradictionElimination)
     Suppose
       Q ∧ ¬Q
     Hence
-      Q by ConjunctionRightElimination
-      ¬Q by ConjunctionLeftElimination
+      Q by ConjunctionLeftElimination
+      ¬Q by ConjunctionRightElimination
     Then
       P by PrincipleOfExplosionAlternativeForm
     (Q ∧ ¬Q) ⇒ P by ImplicationIntroduction
